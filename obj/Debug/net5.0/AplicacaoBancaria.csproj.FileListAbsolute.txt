@@ -1,0 +1,16 @@
+C:\Users\letic\Documents\C#\AplicacaoBancaria\bin\Debug\net5.0\AplicacaoBancaria.exe
+C:\Users\letic\Documents\C#\AplicacaoBancaria\bin\Debug\net5.0\AplicacaoBancaria.deps.json
+C:\Users\letic\Documents\C#\AplicacaoBancaria\bin\Debug\net5.0\AplicacaoBancaria.runtimeconfig.json
+C:\Users\letic\Documents\C#\AplicacaoBancaria\bin\Debug\net5.0\AplicacaoBancaria.runtimeconfig.dev.json
+C:\Users\letic\Documents\C#\AplicacaoBancaria\bin\Debug\net5.0\AplicacaoBancaria.dll
+C:\Users\letic\Documents\C#\AplicacaoBancaria\bin\Debug\net5.0\ref\AplicacaoBancaria.dll
+C:\Users\letic\Documents\C#\AplicacaoBancaria\bin\Debug\net5.0\AplicacaoBancaria.pdb
+C:\Users\letic\Documents\C#\AplicacaoBancaria\obj\Debug\net5.0\AplicacaoBancaria.csprojAssemblyReference.cache
+C:\Users\letic\Documents\C#\AplicacaoBancaria\obj\Debug\net5.0\AplicacaoBancaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\letic\Documents\C#\AplicacaoBancaria\obj\Debug\net5.0\AplicacaoBancaria.AssemblyInfoInputs.cache
+C:\Users\letic\Documents\C#\AplicacaoBancaria\obj\Debug\net5.0\AplicacaoBancaria.AssemblyInfo.cs
+C:\Users\letic\Documents\C#\AplicacaoBancaria\obj\Debug\net5.0\AplicacaoBancaria.csproj.CoreCompileInputs.cache
+C:\Users\letic\Documents\C#\AplicacaoBancaria\obj\Debug\net5.0\AplicacaoBancaria.dll
+C:\Users\letic\Documents\C#\AplicacaoBancaria\obj\Debug\net5.0\ref\AplicacaoBancaria.dll
+C:\Users\letic\Documents\C#\AplicacaoBancaria\obj\Debug\net5.0\AplicacaoBancaria.pdb
+C:\Users\letic\Documents\C#\AplicacaoBancaria\obj\Debug\net5.0\AplicacaoBancaria.genruntimeconfig.cache
