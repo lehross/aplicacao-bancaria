@@ -21,13 +21,13 @@ namespace AplicacaoBancaria
                         InserirConta();
                         break;
                     case "3":
-                        //Transferir();
+                        Transferir();
                         break;
                     case "4":
-                        //Sacar();
+                        Sacar();
                         break;
                     case "5":
-                        //Depositar();
+                        Depositar();
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
@@ -81,6 +81,42 @@ namespace AplicacaoBancaria
             listContas.Add(novaConta);
         }
 
+        private static void Transferir()
+        {
+            Console.Write("Digite o número da conta origem: ");
+            int indiceContaOrigem = int.Parse(Console.ReadLine());
+            
+            Console.Write("Digite o número da conta destino: ");
+            int indiceContaDestino = int.Parse(Console.ReadLine());
+            
+            Console.Write("Digite o valor a ser transferido: ");
+            int valorTransferencia = int.Parse(Console.ReadLine());
+
+            listContas[indiceContaOrigem].Transferir(valorTransferencia, listContas[indiceContaDestino]);
+        }
+
+        private static void Sacar()
+        {
+            Console.Write("Digite o número da conta: ");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o valor a ser sacado: ");
+            double valorSaque = double.Parse(Console.ReadLine());
+
+            listContas[indiceConta].Sacar(valorSaque);
+        }
+
+        private static void Depositar()
+        {
+            Console.Write("Digite o número da conta: ");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o valor a ser sacado: ");
+            double valorDeposito = double.Parse(Console.ReadLine());
+
+            listContas[indiceConta].Depositar(valorDeposito);
+        }
+
         private static string ObterOpcaoUsuario()
         {
             Console.WriteLine();
@@ -91,7 +127,6 @@ namespace AplicacaoBancaria
             Console.WriteLine("3 - Transferir");
             Console.WriteLine("4 - Sacar");
             Console.WriteLine("5 - Depositar");
-            Console.WriteLine("C - Limpar tela");
             Console.WriteLine("X - Sair");
             Console.WriteLine();
 
